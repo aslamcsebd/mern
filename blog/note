@@ -1,0 +1,42 @@
+### Blogging system(Nodejs)
+- Signup, Login, CRUD, Image upload
+
+## Functionality
+- CRUD, DB migrations, DB seeds, Data validation, Authentications (Token based), Image upload, Relationships
+
+## Deploy project
+- Google cloud platform
+
+## Folder structure
+- Routes, controllers, models, database
+- Express(nde framework), For ORM(Sequelize)
+
+## Database tables
+- users(id, name, email, password)
+- posts(id, title, content, image_url, categoryId, userId)
+- categories(id, name)
+- comments(id, content, postId, userId)
+
+- Build a REST API with NodeJs and MySQL
+
+npm list
+npm list -g
+sudo npm install name
+sudo npm uninstall name
+sudo npm uninstall -g name
+
+nodemon
+sudo npm install -g nodemon [but package.json not record]
+npm install --save-dev nodemon
+npm install nodemon -D
+
+nodemon app.js
+
+[nodemon] app crashed - waiting for file changes before starting...
+
+sudo pkill -f node
+
+nodemon restart
+
+npx nodemon app.js
+
